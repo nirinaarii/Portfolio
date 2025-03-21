@@ -20,11 +20,11 @@ export const About = () => {
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
 <RevealOnScroll>
       <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About me</h2>
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Mon propos</h2>
       
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Passionate developer with expertise in building scalable web applications and creating innovative solutions
+                Développeur passionné avec quelques expériences dans la création d'applications web évolutives et le développement de solutions innovantes.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -65,21 +65,21 @@ export const About = () => {
 
 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
   <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-      <h3 className="text-xl font-bold mb-4">Education</h3>
+      <h3 className="text-xl font-bold mb-4">Formations universitaires</h3>
       <ul className="list-disc list-inside text-gray-300 space-y-2">
         <li>
-            <strong>1 ere annee de License Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
+            <strong>1ère annee de Licence en Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
         </li>
         <li>
-            <strong>2 eme annee de License Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
+            <strong>2ème annee de Licence en Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
         </li>
         <li>
-            <strong>3 eme annee de License Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
+            <strong>3ème annee de Licence en Développement d'Application Internet Intranet </strong>-EMIT Universite de Fianarantsoa
         </li>
       </ul>
   </div>
   <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-      <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+      <h3 className="text-xl font-bold mb-4">Experiences Professionnelles</h3>
       <div className="space-y-4 text-gray-300">
          <div>
             <h4 className="font-semibold">Développeur Full-stack  chez Service Export Import Technology(2024) </h4>

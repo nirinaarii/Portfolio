@@ -29,8 +29,8 @@ export const Contact =() =>{
         >
             <RevealOnScroll>
                 <div className="px-4 w-150">
-                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get in Touch
-                     Get in touch
+                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Me contacter
+                    
                     </h2>
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div className="relative">
@@ -38,7 +38,7 @@ export const Contact =() =>{
                             value={formData.name}
                                 className=
                             "w-full bg-white/5 border border-white/10 rounded px-4 py-3 txt-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                            placeholder="Name..."
+                            placeholder="Nom..."
                             onChange={(e)=> setFormData({...formData,name:e.target.value})}/>
                         </div>
 
